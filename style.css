@@ -1,0 +1,25 @@
+:root{
+    --negro:#252525;
+    --blanco:#FFFFFF;
+    --gris:#AEAEAE;
+    --verdeAguaClaro:#2BF3DB;
+    --verdeAguaFuerte:#168D7F;
+}
+body{
+    background-color: var(--negro);
+}
+.imagenes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+img{
+    width: 45vw;
+}
+.logotipo{
+    width: 30vw;
+}
